@@ -3,7 +3,6 @@ resources:
   - repository: SkypeSpaces-Infra
     type: git
     name: SkypeSpaces-Infra
-    ref: refs/heads/miwestbr/coral-yml-template
 
 name: $(date:yyyyMMdd)$(rev:rr)
 jobs:
