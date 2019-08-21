@@ -6,5 +6,11 @@ resources:
 
 name: $(date:yyyyMMdd)$(rev:rr)
 jobs:
-# Do not remove this step. This is how we enforce an audit trail for CredScan runs in CI build definitions.
+# Do not remove this step. This task should be run after sources are downloaded and before dependencies are installed.
 - template: azure-devops-templates/steps/coral-steps.yml@SkypeSpaces-Infra
+
+# Do not remove this step. This task should be run last after a successful build.
+- template: azure-devops-templates/steps/coral-postbuild.yml@SkypeSpaces-Infra
+  parameters:
+    productComponentName:  # Add your procuct's name here
+    platformName:  # Add your product's platform (i.e. 'Windows') here
