@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles.css" /> 
+</head>
+
+<body class="container" onload="myTestFunction()">
+    <div class="loader connecting">
+        <!-- TODO replaced with a spinner -->
+        <span>Connecting...</span>
+    </div>
+    <div>
+        <div class="webview-container"></div>
+        <div class="meeting-info-screen connecting">
+            <h4 class="meeting-info-sub"></h4>
+            <p class="meeting-info-time"></p>
+            <p class="meeting-info-owner"></p>
+        </div>
+        <div class="console-controls">
+            <div class="pretty p-switch">
+                <input type="checkbox" />
+                <div class="state">
+                    <label>Show meeting on console</label>
+                </div>
+            </div>
+            <button class="exit-meeting-btn">Exit meeting</button>
+            <ul class="button-control">
+                <li><i class="fa fa-minus" aria-hidden="true"></i></li>
+                <li><i class="fa fa-volume-up" aria-hidden="true"></i> </li>
+                <li><i class="fa fa-plus" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./console.js"></script>
+</body> 
+</html>
