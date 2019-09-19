@@ -1,20 +1,15 @@
-
 {
-  "name": "ThirdParty",
-  "productName": "ThirdParty",
-  "description": "This application enables joining of Zoom / WebEx meeting",
-  "keywords": [],
-  "main": "./main.js",
-  "version": "1.0.0",
-  "author": "sbeerana",
-  "scripts": {
-    "start": "electron ."
-  },
-  "dependencies": {
-    "jquery": "^3.4.1"
-  },
-  "devDependencies": {
-    "electron": "4.0.0",
-    "electron-log": "3.0.7"
-  }
+    "name": "ThirdParty",
+    "productName": "ThirdParty",
+    "description": "Third party meeting application",
+    "keywords": [],
+    "main": "./main.js",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "4.0.0",
+        "electron-log": "3.0.7"
+    }
 }

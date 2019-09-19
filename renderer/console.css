@@ -1,0 +1,12 @@
+body {
+    background-color: #201f1f;
+}
+
+div {
+    font-family: inherit;
+}
+
+.webview-container{
+    min-width: 100vw;
+    min-height:100vh;
+}

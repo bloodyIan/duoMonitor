@@ -1,0 +1,9 @@
+@font-face {
+    font-family: SegoeUI-Semibold;
+    src: url(./fonts/seguisb.ttf);
+}
+
+body {
+    font-family: SegoeUI-Semibold;
+    margin: 0;
+}

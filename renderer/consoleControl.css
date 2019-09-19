@@ -1,0 +1,176 @@
+.console-controls {
+    position: relative;
+    background: #201f1f;
+    width: 100%;
+    min-height: 100vh;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.console-controls.connecting {
+    display: none;
+}
+
+.console-controls-hide {
+    display: none;
+}
+
+.exit-meeting-btn {
+    color: #fff;
+    font-family: inherit;
+    font-size: 18px;
+    width: 200px;
+    padding: 12px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 24px;
+    background: #9d2e42;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 2px 4px -0.75px rgba(0, 0, 0, 0.1);
+}
+
+.switchControl input:not([type="checkbox"]):not([type="radio"]) {
+    display: none;
+}
+
+.switchControl {
+    position: relative;
+    display: inline-block;
+    margin-right: 16px;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.switchControl input {
+    display: none;
+}
+
+.switchControl .state label {
+    position: initial;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.switchControl.meeting-on-console .state {
+    position: relative;
+}
+
+.switchControl.meeting-on-console .state:before {
+    content: "";
+    border-radius: 60px;
+    background: #6264a7;
+    width: 32px;
+    box-sizing: unset;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease;
+}
+
+.switchControl .state label:after,
+.switchControl .state label:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+}
+
+.switchControl .state label:before {
+    border-color: #bdc3c7;
+}
+
+.switchControl .state.p-is-hover,
+.switchControl .state.p-is-indeterminate {
+    display: none;
+}
+
+.switchControl.meeting-on-console .state label:after,
+.switchControl.meeting-on-console .state label:before {
+    transition: all 0.5s ease;
+    border-radius: 100%;
+    left: 0;
+    border-color: transparent;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.switchControl.meeting-on-console .state label:after {
+    background-color: #bdc3c7 !important;
+}
+
+.switchControl.meeting-on-console .state label:after,
+.switchControl.meeting-on-console .state label:before {
+    transition: all 0.5s ease;
+    border-radius: 100%;
+    left: 0;
+    border-color: transparent;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.switchControl.meeting-on-console input:checked ~ .state label:after {
+    background-color: #fff;
+    left: 16px;
+}
+
+.switchControl.meeting-on-console .state label:after {
+    background-color: #bdc3c7;
+}
+
+.button-control {
+    list-style: none;
+    color: rgba(134, 137, 146, 0.84);
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.button-control li {
+    display: inline;
+    margin-right: 35px;
+}
+
+.btn-minus {
+    background-image: url("../src/icon/minus.svg");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.btn-plus {
+    background-image: url("../src/icon/plus.svg");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.btn-volume {
+    background-image: url("../src/icon/VolumeMax.svg");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
