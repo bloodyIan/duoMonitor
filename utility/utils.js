@@ -1,19 +1,28 @@
 //utility functions that can be used for main.js and renderer.js
 const electron = require("electron");
 const constants = require("./constants.js");
+const log = require("electron-log");
 
 exports.getConsoleBounds = function() {
     return electron.screen.getPrimaryDisplay().bounds;
 };
 
 exports.getFORBounds = function() {
-    var displays = electron.screen.getAllDisplays();
+    var sortedDisplays = electron.screen.getAllDisplays().sort((a, b) => {
+        if (a.bounds.x !== b.bounds.x) {
+            return a.bounds.x - b.bounds.x;
+        } else {
+            return a.bounds.y - b.bounds.y;
+        }
+    });
     var primaryDisplay = electron.screen.getPrimaryDisplay();
-    for (var i in displays) {
-        if (displays[i].id != primaryDisplay.id) {
-            return displays[i].bounds;
+    var FORbounds = [];
+    for (var i in sortedDisplays) {
+        if (sortedDisplays[i].id != primaryDisplay.id) {
+            FORbounds.push(sortedDisplays[i].bounds);
         }
     }
+    return FORbounds;
 };
 
 exports.getConsoleControlBounds = function(consoleBounds) {

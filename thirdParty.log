@@ -1,0 +1,673 @@
+[2019-09-23 15:44:49.679] [info] electron is ready, creating windows
+[2019-09-23 15:44:49.692] [info] Creating console, consoleControl and FOR windows
+[2019-09-23 15:44:49.712] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1920 ,1080)
+[2019-09-23 15:44:49.730] [info] created FOR bounds: (x, y) = (-1536, 216) and (width, height) = (1536 ,864)
+[2019-09-23 15:44:49.736] [info] created console control bounds: (x, y) = (0, 900) and (width, height) = (1920 ,180)
+[2019-09-23 15:44:49.869] [info] Launching app
+[2019-09-23 15:44:55.597] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1920 ,1080)
+[2019-09-23 15:44:55.616] [info] after switching FOR bounds: (x, y) = (-1536, 216) and (width, height) = (1536 ,864)
+[2019-09-23 15:44:55.628] [info] after switching console control bounds: (x, y) = (0, 900) and (width, height) = (1920 ,180)
+[2019-09-23 15:44:55.648] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1920 ,900)
+[2019-09-23 15:44:57.394] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1920 ,1080)
+[2019-09-23 15:44:57.422] [info] after switching FOR bounds: (x, y) = (-1536, 216) and (width, height) = (1536 ,864)
+[2019-09-23 15:44:57.448] [info] after switching console control bounds: (x, y) = (0, 900) and (width, height) = (1920 ,180)
+[2019-09-23 15:44:57.471] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1920 ,900)
+[2019-09-23 15:44:58.976] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1920 ,1080)
+[2019-09-23 15:44:59.015] [info] after switching FOR bounds: (x, y) = (-1536, 216) and (width, height) = (1536 ,864)
+[2019-09-23 15:44:59.045] [info] after switching console control bounds: (x, y) = (0, 900) and (width, height) = (1920 ,180)
+[2019-09-23 15:44:59.072] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1920 ,900)
+[2019-09-23 15:45:01.790] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1920 ,1080)
+[2019-09-23 15:45:01.825] [info] after switching FOR bounds: (x, y) = (-1536, 216) and (width, height) = (1536 ,864)
+[2019-09-23 15:45:01.833] [info] after switching console control bounds: (x, y) = (0, 900) and (width, height) = (1920 ,180)
+[2019-09-23 15:45:01.851] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1920 ,900)
+[2019-09-24 08:03:56.066] [info] electron is ready, creating windows
+[2019-09-24 08:03:56.092] [info] Creating console, consoleControl and FOR windows
+[2019-09-24 08:03:56.103] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 08:03:56.132] [info] created FOR bounds: (x, y) = (3456, -216) and (width, height) = (1920 ,1080)
+[2019-09-24 08:03:56.141] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 08:03:56.350] [info] Launching app
+[2019-09-24 08:04:06.712] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 08:04:06.753] [info] after switching FOR bounds: (x, y) = (3456, -216) and (width, height) = (1920 ,1080)
+[2019-09-24 08:04:06.804] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 08:04:06.854] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-24 08:04:09.196] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 08:04:09.231] [info] after switching FOR bounds: (x, y) = (3456, -216) and (width, height) = (1920 ,1080)
+[2019-09-24 08:04:09.280] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 08:04:09.291] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-24 13:48:07.307] [info] electron is ready, creating windows
+[2019-09-24 13:48:07.316] [info] Creating console, consoleControl and FOR windows
+[2019-09-24 13:48:07.337] [info] [ { id: 2528732444,
+    bounds: { x: 0, y: 0, width: 1536, height: 864 },
+    workArea: { x: 0, y: 0, width: 1536, height: 864 },
+    size: { width: 1536, height: 864 },
+    workAreaSize: { width: 1536, height: 864 },
+    scaleFactor: 1.25,
+    rotation: 0,
+    touchSupport: 'unknown' },
+  { id: 917481049,
+    bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+    workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+    size: { width: 1920, height: 1080 },
+    workAreaSize: { width: 1920, height: 1080 },
+    scaleFactor: 1,
+    rotation: 0,
+    touchSupport: 'unknown' },
+  { id: 3958967264,
+    bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+    workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+    size: { width: 1920, height: 1080 },
+    workAreaSize: { width: 1920, height: 1080 },
+    scaleFactor: 1,
+    rotation: 0,
+    touchSupport: 'unknown' } ]
+[2019-09-24 13:48:07.344] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 13:48:07.356] [info] created FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-24 13:48:07.362] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 13:48:07.494] [info] Launching app
+[2019-09-24 13:49:09.013] [info] electron is ready, creating windows
+[2019-09-24 13:49:09.023] [info] Creating console, consoleControl and FOR windows
+[2019-09-24 13:49:09.041] [info] display is  [ { id: 2528732444,
+    bounds: { x: 0, y: 0, width: 1536, height: 864 },
+    workArea: { x: 0, y: 0, width: 1536, height: 864 },
+    size: { width: 1536, height: 864 },
+    workAreaSize: { width: 1536, height: 864 },
+    scaleFactor: 1.25,
+    rotation: 0,
+    touchSupport: 'unknown' },
+  { id: 917481049,
+    bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+    workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+    size: { width: 1920, height: 1080 },
+    workAreaSize: { width: 1920, height: 1080 },
+    scaleFactor: 1,
+    rotation: 0,
+    touchSupport: 'unknown' },
+  { id: 3958967264,
+    bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+    workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+    size: { width: 1920, height: 1080 },
+    workAreaSize: { width: 1920, height: 1080 },
+    scaleFactor: 1,
+    rotation: 0,
+    touchSupport: 'unknown' } ]
+[2019-09-24 13:49:09.055] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 13:49:09.060] [info] created FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-24 13:49:09.070] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 13:49:09.198] [info] Launching app
+[2019-09-24 13:51:26.158] [info] electron is ready, creating windows
+[2019-09-24 13:51:26.165] [info] Creating console, consoleControl and FOR windows
+[2019-09-24 13:51:26.177] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-24 13:51:26.184] [info] display[1] is  { id: 917481049,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-24 13:51:26.198] [info] display[2] is  { id: 3958967264,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-24 13:51:26.210] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 13:51:26.216] [info] created FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-24 13:51:26.229] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 13:51:26.362] [info] Launching app
+[2019-09-24 14:52:25.749] [info] electron is ready, creating windows
+[2019-09-24 14:52:25.757] [info] Creating console, consoleControl and FOR windows
+[2019-09-24 14:52:25.770] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-24 14:52:25.776] [info] display[1] is  { id: 917481049,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-24 14:52:25.781] [info] display[2] is  { id: 3958967264,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-24 14:52:25.792] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 14:52:25.806] [info] created FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-24 14:52:25.811] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 14:52:25.967] [info] Launching app
+[2019-09-24 14:52:30.385] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 14:52:30.406] [info] after switching FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-24 14:52:30.414] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 14:52:30.428] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-24 14:52:32.440] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-24 14:52:32.468] [info] after switching FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-24 14:52:32.493] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-24 14:52:32.513] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-25 14:07:03.219] [info] electron is ready, creating windows
+[2019-09-25 14:07:03.237] [info] Creating console, consoleControl and FOR windows
+[2019-09-25 14:07:03.246] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:07:03.263] [info] display[1] is  { id: 2397997166,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:07:03.282] [info] display[2] is  { id: 4135208325,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:07:03.297] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-25 14:07:03.311] [info] created FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-25 14:07:03.336] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-25 14:07:03.495] [info] Launching app
+[2019-09-25 14:10:03.409] [info] electron is ready, creating windows
+[2019-09-25 14:10:03.422] [info] Creating console, consoleControl and FOR windows
+[2019-09-25 14:10:03.435] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:10:03.448] [info] display[1] is  { id: 4135208325,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:10:03.463] [info] display[2] is  { id: 2397997166,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:10:03.477] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-25 14:10:03.483] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-25 14:10:03.494] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-25 14:10:03.634] [info] Launching app
+[2019-09-25 14:11:13.997] [info] electron is ready, creating windows
+[2019-09-25 14:11:14.005] [info] Creating console, consoleControl and FOR windows
+[2019-09-25 14:11:14.017] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:11:14.024] [info] display[1] is  { id: 4135208325,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:11:14.032] [info] display[2] is  { id: 2397997166,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-25 14:11:14.059] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-25 14:11:14.068] [info] created FOR bounds: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-25 14:11:14.085] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-25 14:11:14.236] [info] Launching app
+[2019-09-25 14:11:49.494] [info] Closing app
+[2019-09-27 08:53:52.344] [info] electron is ready, creating windows
+[2019-09-27 08:53:52.354] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 08:53:52.365] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:53:52.375] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:53:52.381] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:53:52.390] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:53:52.395] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:53:52.399] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:53:52.564] [info] Launching app
+[2019-09-27 08:53:57.271] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:53:57.286] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:53:57.313] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:53:57.329] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 08:53:58.750] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:53:58.775] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:53:58.789] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:53:58.811] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 08:55:58.597] [info] electron is ready, creating windows
+[2019-09-27 08:55:58.607] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 08:55:58.618] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:55:58.627] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:55:58.633] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:55:58.645] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:55:58.651] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:55:58.664] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:55:58.818] [info] Launching app
+[2019-09-27 08:56:03.860] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:56:03.880] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:56:03.905] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:56:03.919] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 08:56:05.474] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:56:05.500] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:56:05.520] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:56:05.534] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 08:58:26.444] [info] electron is ready, creating windows
+[2019-09-27 08:58:26.451] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 08:58:26.465] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:58:26.472] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:58:26.483] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 08:58:26.489] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:58:26.497] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:58:26.502] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:58:26.656] [info] Launching app
+[2019-09-27 08:58:29.547] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:58:29.569] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:58:29.587] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:58:29.604] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 08:58:30.964] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 08:58:30.987] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 08:58:31.020] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 08:58:31.044] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:01:10.676] [info] electron is ready, creating windows
+[2019-09-27 09:01:10.685] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:01:10.704] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:01:10.719] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:01:10.735] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:01:10.740] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:01:10.750] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:01:10.755] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:01:10.918] [info] Launching app
+[2019-09-27 09:02:18.969] [info] electron is ready, creating windows
+[2019-09-27 09:02:18.977] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:02:18.987] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:02:19.006] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:02:19.019] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:02:19.024] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:02:19.035] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:02:19.040] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:02:19.227] [info] Launching app
+[2019-09-27 09:02:23.985] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:02:24.009] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:02:24.026] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:02:24.042] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:02:25.869] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:02:25.898] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:02:25.910] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:02:25.932] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:02:27.888] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:02:27.913] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:02:27.927] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:02:27.959] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:05:36.416] [info] electron is ready, creating windows
+[2019-09-27 09:05:36.424] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:05:36.443] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:05:36.460] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:05:36.475] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:05:36.488] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:05:36.496] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:05:36.506] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:05:36.691] [info] Launching app
+[2019-09-27 09:05:41.438] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:05:41.456] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:05:41.479] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:05:41.491] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:05:44.302] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:05:44.343] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:05:44.377] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:05:44.396] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:06:30.948] [info] electron is ready, creating windows
+[2019-09-27 09:06:30.957] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:06:30.979] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:06:30.991] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:06:30.997] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:06:31.008] [info] created console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:06:31.013] [info] created FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:06:31.025] [info] created console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:06:31.121] [info] 2nd FOR monitor exists
+[2019-09-27 09:06:31.247] [info] Launching app
+[2019-09-27 09:06:35.351] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:06:35.375] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:06:35.403] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:06:35.412] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:06:36.868] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:06:36.892] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:06:36.927] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:06:36.947] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:12:00.771] [info] electron is ready, creating windows
+[2019-09-27 09:12:00.785] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:12:00.799] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:12:00.805] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:12:00.815] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:12:00.969] [info] 2nd FOR monitor exists
+[2019-09-27 09:12:01.030] [info] Created console window: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:12:01.056] [info] Created FOR window: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:12:01.092] [info] Created 2nd FOR window: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:12:01.103] [info] Created console control window: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:12:17.687] [info] electron is ready, creating windows
+[2019-09-27 09:12:17.697] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:12:17.708] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:12:17.725] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:12:17.738] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:12:17.884] [info] 2nd FOR monitor exists
+[2019-09-27 09:12:17.937] [info] Created console window: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:12:17.966] [info] Created FOR window: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:12:17.999] [info] Created 2nd FOR window: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:12:18.011] [info] Created console control window: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:12:18.032] [info] Launching app
+[2019-09-27 09:12:23.446] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:12:23.483] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:12:23.497] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:12:23.542] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:12:24.369] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:12:24.401] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:12:24.427] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:12:24.443] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:13:26.990] [info] electron is ready, creating windows
+[2019-09-27 09:13:27.004] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:13:27.013] [info] display[0] is  { id: 2528732444,
+  bounds: { x: 0, y: 0, width: 1536, height: 864 },
+  workArea: { x: 0, y: 0, width: 1536, height: 864 },
+  size: { width: 1536, height: 864 },
+  workAreaSize: { width: 1536, height: 864 },
+  scaleFactor: 1.25,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:13:27.023] [info] display[1] is  { id: 3697501055,
+  bounds: { x: 8, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 8, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:13:27.029] [info] display[2] is  { id: 4275992232,
+  bounds: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  workArea: { x: 1928, y: -1080, width: 1920, height: 1080 },
+  size: { width: 1920, height: 1080 },
+  workAreaSize: { width: 1920, height: 1080 },
+  scaleFactor: 1,
+  rotation: 0,
+  touchSupport: 'unknown' }
+[2019-09-27 09:13:27.124] [info] 2nd FOR monitor exists
+[2019-09-27 09:13:27.255] [info] Created console window: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:13:27.275] [info] Created FOR window: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:13:27.295] [info] Created 2nd FOR window: (x, y) = (1928, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:13:27.305] [info] Created console control window: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:13:27.314] [info] Launching app
+[2019-09-27 09:13:31.148] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:13:31.180] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:13:31.195] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:13:31.232] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:13:32.504] [info] after switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:13:32.532] [info] after switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:13:32.571] [info] after switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:13:32.580] [info] after switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:16:43.134] [info] Electron is ready, creating windows
+[2019-09-27 09:16:43.139] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:16:43.284] [info] Created console window: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:16:43.298] [info] Created FOR window: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:16:43.312] [info] Created console control window: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:16:43.322] [info] Launching app
+[2019-09-27 09:16:47.104] [info] After switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:16:47.111] [info] After switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:16:47.119] [info] After switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:16:47.129] [info] After switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:16:49.142] [info] After switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:16:49.151] [info] After switching FOR bounds: (x, y) = (8, -1080) and (width, height) = (1920 ,1080)
+[2019-09-27 09:16:49.174] [info] After switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:16:49.188] [info] After switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:17:27.661] [info] Electron is ready, creating windows
+[2019-09-27 09:17:27.719] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:18:09.005] [info] Electron is ready, creating windows
+[2019-09-27 09:18:09.020] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:18:44.062] [info] Electron is ready, creating windows
+[2019-09-27 09:18:44.071] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 09:18:44.198] [info] Created console window: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:18:44.219] [info] Created FOR window: (x, y) = (1536, -216) and (width, height) = (1920 ,1080)
+[2019-09-27 09:18:44.232] [info] Created console control window: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:18:44.254] [info] Launching app
+[2019-09-27 09:18:48.888] [info] After switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:18:48.915] [info] After switching FOR bounds: (x, y) = (1536, -216) and (width, height) = (1920 ,1080)
+[2019-09-27 09:18:48.934] [info] After switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:18:48.951] [info] After switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 09:18:49.822] [info] After switching console bounds: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 09:18:49.858] [info] After switching FOR bounds: (x, y) = (1536, -216) and (width, height) = (1920 ,1080)
+[2019-09-27 09:18:49.865] [info] After switching console control bounds: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 09:18:49.869] [info] After switching meeting bounds: (x, y) = (0, 0) and (width, height) = (1536 ,720)
+[2019-09-27 10:25:08.281] [info] Electron is ready, creating windows
+[2019-09-27 10:25:08.298] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 10:25:08.511] [info] Created console window: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 10:25:08.527] [info] Created FOR window: (x, y) = (1536, 0) and (width, height) = (1920 ,1200)
+[2019-09-27 10:25:08.551] [info] Created console control window: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 10:25:08.567] [info] Launching app
+[2019-09-27 10:30:25.631] [info] Electron is ready, creating windows
+[2019-09-27 10:30:25.639] [info] Creating console, consoleControl and FOR windows
+[2019-09-27 10:30:25.766] [info] Created console window: (x, y) = (0, 0) and (width, height) = (1536 ,864)
+[2019-09-27 10:30:25.781] [info] Created FOR window: (x, y) = (1536, 0) and (width, height) = (1920 ,1200)
+[2019-09-27 10:30:25.792] [info] Created console control window: (x, y) = (0, 720) and (width, height) = (1536 ,144)
+[2019-09-27 10:30:25.802] [info] Launching app
