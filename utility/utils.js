@@ -1,13 +1,14 @@
 //utility functions that can be used for main.js and renderer.js
 const electron = require("electron");
 const constants = require("./constants.js");
-const log = require("electron-log");
+const fs = require("fs");
+const path = require("path");
 
 exports.getConsoleBounds = function() {
     return electron.screen.getPrimaryDisplay().bounds;
 };
 
-exports.getFORBounds = function() {
+exports.getAllSecondaryDisplays = function() {
     var sortedDisplays = electron.screen.getAllDisplays().sort((a, b) => {
         if (a.bounds.x !== b.bounds.x) {
             return a.bounds.x - b.bounds.x;
@@ -16,13 +17,13 @@ exports.getFORBounds = function() {
         }
     });
     var primaryDisplay = electron.screen.getPrimaryDisplay();
-    var FORbounds = [];
+    var frontOfRooms = [];
     for (var i in sortedDisplays) {
         if (sortedDisplays[i].id != primaryDisplay.id) {
-            FORbounds.push(sortedDisplays[i].bounds);
+            frontOfRooms.push(sortedDisplays[i]);
         }
     }
-    return FORbounds;
+    return frontOfRooms;
 };
 
 exports.getConsoleControlBounds = function(consoleBounds) {
@@ -42,4 +43,18 @@ exports.setBounds = function(window, bounds) {
 
 exports.boundsToString = function(bounds) {
     return `(x, y) = (${bounds.x}, ${bounds.y}) and (width, height) = (${bounds.width} ,${bounds.height})`;
+};
+
+exports.getLoadedLanguage = function(locale) {
+    //final locale files path is not set yet
+    var LocaleFilePath = path.join(__dirname, "locale-" + locale + ".json");
+    if (fs.existsSync(LocaleFilePath)) {
+        return JSON.parse(fs.readFileSync(LocaleFilePath, "utf8"));
+    } else if (fs.existsSync(path.join(__dirname, "locale-en-us.json"))) {
+        return JSON.parse(
+            fs.readFileSync(path.join(__dirname, "locale-en-us.json"), "utf8")
+        );
+    } else {
+        return null;
+    }
 };

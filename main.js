@@ -1,51 +1,104 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
+const electron = require("electron");
 const log = require("electron-log");
 const utils = require("./utility/utils.js");
 const constants = require("./utility/constants.js");
-let consoleWindow, FORWindow, consoleControlWindow;
+let allSecondaryDisplays;
+let consoleWindow, frontOfRoomWindow, frontOfRoom2Window, consoleControlWindow;
 let consoleBounds,
-    FORBounds,
+    frontOfRoomBounds,
+    frontOfRoom2Bounds,
     consoleControlBounds,
     consoleWindowHeight,
     meetingBounds;
 let meetingOnConsole = true;
+global.sharedObject = {
+    prop1: process.argv
+};
 //setting log file location
 log.transports.file.file = __dirname + "/thirdParty.log";
 
 function createWindows() {
-    log.info("Creating console, consoleControl and FOR windows");
-    FORBounds = utils.getFORBounds();
+    log.info("Creating console, consoleControl and frontOfRoom windows");
+    allSecondaryDisplays = utils.getAllSecondaryDisplays();
+    frontOfRoomBounds =
+        allSecondaryDisplays.length >= 1
+            ? allSecondaryDisplays[0].bounds
+            : null;
+    frontOfRoom2Bounds =
+        allSecondaryDisplays.length === 2
+            ? allSecondaryDisplays[1].bounds
+            : null;
     consoleBounds = utils.getConsoleBounds();
     consoleControlBounds = utils.getConsoleControlBounds(consoleBounds);
     consoleWindowHeight = Math.round(
         consoleBounds.height * constants.ratios.consoleMeetingRatio
     );
-
-    FORWindow = new BrowserWindow({
-        x: FORBounds[0].x,
-        y: FORBounds[0].y,
-        frame: false,
-        webPreferences: { nodeIntegration: true, webSecurity: true }
+    createFrontOfRoomWindows();
+    createConsoleWindow();
+    createConsoleControlWindow();
+    //The proper 'closed' callback here helps to avoid future calls on destroyed object.
+    consoleWindow.on("closed", function() {
+        consoleWindow = null;
     });
-    FORWindow.maximize();
-    FORWindow.loadURL("file://" + __dirname + "/renderer/frontOfRoom.html");
-
-    if (FORBounds[1]) {
-        log.info("2nd FOR monitor exists");
-        let FOR2Window = new BrowserWindow({
-            x: FORBounds[1].x,
-            y: FORBounds[1].y,
-            width: FORBounds[1].width,
-            height: FORBounds[1].height,
-            frame: false,
-            webPreferences: { nodeIntegration: true }
+    if (frontOfRoomBounds) {
+        frontOfRoomWindow.on("closed", function() {
+            frontOfRoomWindow = null;
         });
-        FOR2Window.maximize();
-        FOR2Window.loadURL(
-            "file://" + __dirname + "/renderer/secondFrontOfRoom.html"
+    }
+    if (frontOfRoom2Bounds) {
+        frontOfRoom2Window.on("closed", function() {
+            frontOfRoom2Window = null;
+        });
+    }
+    consoleControlWindow.on("closed", function() {
+        consoleWindow = null;
+    });
+    log.info("Launching app");
+}
+
+function createFrontOfRoomWindows() {
+    if (frontOfRoomBounds) {
+        frontOfRoomWindow = new BrowserWindow({
+            x: frontOfRoomBounds.x,
+            y: frontOfRoomBounds.y,
+            frame: false,
+            webPreferences: { nodeIntegration: true, webSecurity: true }
+        });
+        frontOfRoomWindow.maximize();
+        frontOfRoomWindow.loadURL(
+            "file://" + __dirname + "/renderer/frontOfRoom.html"
+        );
+        log.info(
+            `Created frontOfRoom window: ${utils.boundsToString(
+                frontOfRoomBounds
+            )}`
         );
     }
 
+    if (frontOfRoom2Bounds) {
+        log.info("2nd frontOfRoom monitor exists");
+        frontOfRoom2Window = new BrowserWindow({
+            x: frontOfRoom2Bounds.x,
+            y: frontOfRoom2Bounds.y,
+            width: frontOfRoom2Bounds.width,
+            height: frontOfRoom2Bounds.height,
+            frame: false,
+            webPreferences: { nodeIntegration: true }
+        });
+        frontOfRoom2Window.maximize();
+        frontOfRoom2Window.loadURL(
+            "file://" + __dirname + "/renderer/secondFrontOfRoom.html"
+        );
+        log.info(
+            `Created 2nd frontOfRoom window: ${utils.boundsToString(
+                frontOfRoom2Bounds
+            )}`
+        );
+    }
+}
+
+function createConsoleWindow() {
     consoleWindow = new BrowserWindow({
         x: consoleBounds.x,
         y: consoleBounds.y,
@@ -55,7 +108,10 @@ function createWindows() {
         webPreferences: { nodeIntegration: true }
     });
     consoleWindow.loadURL("file://" + __dirname + "/renderer/console.html");
+    log.info(`Created console window: ${utils.boundsToString(consoleBounds)}`);
+}
 
+function createConsoleControlWindow() {
     consoleControlWindow = new BrowserWindow({
         x: consoleControlBounds.x,
         y: consoleControlBounds.y,
@@ -67,30 +123,44 @@ function createWindows() {
     consoleControlWindow.loadURL(
         "file://" + __dirname + "/renderer/consoleControl.html"
     );
-
-    log.info(`Created console window: ${utils.boundsToString(consoleBounds)}`);
-    log.info(`Created FOR window: ${utils.boundsToString(FORBounds[0])}`);
-    if (FORBounds[1]) {
-        log.info(
-            `Created 2nd FOR window: ${utils.boundsToString(FORBounds[1])}`
-        );
-    }
     log.info(
         `Created console control window: ${utils.boundsToString(
             consoleControlBounds
         )}`
     );
-    //The proper 'closed' callback here helps to avoid future calls on destroyed object.
-    consoleWindow.on("closed", function() {
-        consoleWindow = null;
-    });
-    FORWindow.on("closed", function() {
-        FORWindow = null;
-    });
-    consoleControlWindow.on("closed", function() {
-        consoleWindow = null;
-    });
-    log.info("Launching app");
+}
+
+function handleDisplayRemoved(event, display) {
+    allSecondaryDisplays = utils.getAllSecondaryDisplays();
+    if (display.id == allSecondaryDisplays[0].id) {
+        log.warn("frontOfRoom1 removed");
+        if (allSecondaryDisplays[1]) {
+            utils.setBounds(frontOfRoomWindow, frontOfRoom2Bounds);
+        } else {
+            frontOfRoomWindow.hide();
+        }
+    } else {
+        log.warn("frontOfRoom2 removed");
+        frontOfRoom2Window.hide();
+    }
+}
+
+function handleDisplayAdded(event, display) {
+    allSecondaryDisplays = utils.getAllSecondaryDisplays();
+    if (display.id == allSecondaryDisplays[0].id) {
+        log.warn("frontOfRoom1 added");
+        if (allSecondaryDisplays[1]) {
+            utils.setBounds(frontOfRoomWindow, frontOfRoomBounds);
+            frontOfRoom2Window.show();
+        } else {
+            frontOfRoomWindow.show();
+            utils.setBounds(frontOfRoomWindow, frontOfRoomBounds);
+        }
+    } else {
+        log.warn("frontOfRoom2 added");
+        frontOfRoom2Window.show();
+        utils.setBounds(frontOfRoom2Window, frontOfRoom2Bounds);
+    }
 }
 
 ipcMain.on(constants.events.closeApp, (evt, arg) => {
@@ -106,22 +176,32 @@ ipcMain.on(constants.events.switchWindow, (event, args) => {
         height: consoleWindowHeight
     };
     if (meetingOnConsole === true) {
-        //console will load meetingInfo webpage and FOR will show console window with actual meeting webview
-        utils.setBounds(consoleWindow, FORBounds[0]);
-        utils.setBounds(FORWindow, meetingBounds);
-        FORWindow.loadURL("file://" + __dirname + "/renderer/meetingInfo.html");
+        utils.setBounds(consoleWindow, frontOfRoomBounds);
+        utils.setBounds(frontOfRoomWindow, meetingBounds);
+        frontOfRoomWindow.loadURL(
+            "file://" + __dirname + "/renderer/meetingInfo.html"
+        );
+        log.info(
+            "Switching window: Console will load meetingInfo webpage and frontOfRoom will show console window with meeting webview"
+        );
     } else {
-        //switch back to the state that console shows actual meeting and FOR shows duplication of the meeting
         utils.setBounds(consoleWindow, meetingBounds);
-        utils.setBounds(FORWindow, FORBounds[0]);
-        FORWindow.loadURL("file://" + __dirname + "/renderer/frontOfRoom.html");
+        utils.setBounds(frontOfRoomWindow, frontOfRoomBounds);
+        frontOfRoomWindow.loadURL(
+            "file://" + __dirname + "/renderer/frontOfRoom.html"
+        );
+        log.info(
+            "Switching window:: Console will show meeting webview and frontOfRoom will show duplication of the meeting"
+        );
     }
     meetingOnConsole = !meetingOnConsole;
     log.info(
         `After switching console bounds: ${utils.boundsToString(consoleBounds)}`
     );
     log.info(
-        `After switching FOR bounds: ${utils.boundsToString(FORBounds[0])}`
+        `After switching frontOfRoom bounds: ${utils.boundsToString(
+            frontOfRoomBounds
+        )}`
     );
     log.info(
         `After switching console control bounds: ${utils.boundsToString(
@@ -132,15 +212,13 @@ ipcMain.on(constants.events.switchWindow, (event, args) => {
         `After switching meeting bounds: ${utils.boundsToString(meetingBounds)}`
     );
 });
-
 //electron has finished initializing
 app.on("ready", function() {
     log.info("Electron is ready, creating windows");
     createWindows();
-    let electronScreen = require("electron");
-    electronScreen.on("display-removed", function() {
-        log.info("display removed");
-    });
+    const { screen } = require("electron");
+    screen.on("display-removed", handleDisplayRemoved);
+    screen.on("display-added", handleDisplayAdded);
 });
 
 app.on("window-all-closed", function() {
